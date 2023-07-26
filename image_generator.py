@@ -15,7 +15,7 @@ async def generate_image(message_content):
 
     async with aiohttp.ClientSession() as session:
         async with session.post(url=f'{url}/sdapi/v1/options', json=option_payload) as response:
-            print("Request completed successfully") if response.status == 200 else print(f"Произошла ошибка: {response.status}")
+            print("Request completed successfully") if response.status == 200 else print(f"Error: {response.status}")
 
         high_quality_prompt = "masterpiece, best quality, ultra high res, beautiful, "
         negative_prompt_message = "NSFW, (worst quality, low quality:1.3), badhandv5, bad_quality, easynegative"

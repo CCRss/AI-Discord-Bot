@@ -24,7 +24,7 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 @bot.command(name='img', aliases=['имг'])
 async def img(ctx, *, message_content):
     with open('discord_emoji\loading.gif', 'rb') as gif:
-        progress_message = await ctx.message.reply('Рисую, падажди', file=discord.File(gif))
+        progress_message = await ctx.message.reply('Im drawing wait!!', file=discord.File(gif))
     image_path = await generate_image(message_content)
     with open(image_path, 'rb') as image_file:
         await ctx.message.reply(file=discord.File(image_file))
