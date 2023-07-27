@@ -6,7 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
-# Generated images
+#Logs 
+logs/
+
+# Generated image
 sd_images/
 
 # Distribution / packaging
@@ -36,6 +39,7 @@ MANIFEST
 *.spec
 
 # Installer logs
+
 pip-log.txt
 pip-delete-this-directory.txt
 
