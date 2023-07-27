@@ -23,7 +23,7 @@ AI-Discord-Bot is a project that integrates artificial intelligence into a Disco
 # Prerequisites
 Before you begin, ensure you have met the following requirements:
 
-* You have installed the latest version of Python.
+* You have installed Python.
 * You have a Discord account.
 * You have the necessary permissions to create and manage a bot on your Discord server.
 * You have an OpenAI account and API key to use the GPT-3 model.
@@ -32,10 +32,11 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone this repository to your local machine using `git clone https://github.com/CCRss/AI-Discord-Bot.git`.
 2. Create new env `python -m venv myenv`
-3. Install the required Python packages using pip: `pip install -r requirements.txt`.
-4. Create a new bot on the Discord developer portal and get your bot token. 
-5. Set up your environment variables in a `.env` file in the root of your project. Refer to `.env.example` for the necessary variables.
-6. Run the bot using `python main.py`.
+3. Activate env `.\myenv\Scripts\activate`
+4. Install the required Python packages using pip: `pip install -r requirements.txt`.
+5. Create a new bot on the [Discord developer portal](https://discord.com/developers/applications/) and get your bot token. 
+6. Set up your environment variables in a `.env` file in the root of your project. Refer to `.env.example` for the necessary variables.
+7. Run the bot using `python main.py`.
 
 
 
