@@ -37,7 +37,6 @@ Before you begin, ensure you have met the following requirements:
 5. Set up your environment variables in a `.env` file in the root of your project. Refer to `.env.example` for the necessary variables.
 6. Run the bot using `python main.py`.
 
-# Installation and Running
 
 
 
